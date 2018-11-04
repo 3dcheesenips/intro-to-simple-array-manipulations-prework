@@ -9,9 +9,7 @@ def using_pop(array)
  return returned_element
 end
 def pop_with_args(array)
-  returned_element1 = array.pop
-  returned_element2 = array.pop 
-  return returned_element2
+  array.pop(2)
 end
 def using_shift(array)
   array.shift 
